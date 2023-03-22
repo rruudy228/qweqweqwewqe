@@ -1,0 +1,150 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+      box-sizing: border-box;
+}
+  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.header {
+    width: 100%;
+    padding-top: 30px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+  
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+  
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 55px;
+    position: relative;
+  
+    color: #fff;
+    text-decoration: none;
+  
+    transition: color 0.3s linear;
+}
+  
+.nav1:hover {
+    color: #ffffff;
+}
+  
+.nav1:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px; 
+  
+    background-color: #ffffff;
+    opacity: 0;
+  
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+  
+    transition: opacity .3s linear;
+}
+  
+.nav1:hover:after {
+    opacity: 1;
+}
+  
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro__title {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto;
+}
+
+.gradient {
+    color: transparent;    
+    -webkit-background-clip: text;
+    background-clip: text;
+	background-color: #fff;
+}
+
+.intro__suptitle {
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    background-color: #fff;
+}
+
+.button4 {
+    border-radius: 20px;
+}
+
+.catalog {
+    
+}
